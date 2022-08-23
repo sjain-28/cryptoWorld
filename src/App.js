@@ -38,7 +38,7 @@ function App() {
                 <Exchanges />
               </Route>
               <Route exact path="/cryptocurrencies">
-                <Cryptocurrencies simplified={false}/>
+                <Cryptocurrencies simplified={false} />
               </Route>
               <Route exact path="/crypto/:coinId">
                 <CryptoDetails />
@@ -53,7 +53,7 @@ function App() {
         <div className="footer">
           <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2021
             <Link to="/">
-              CryptoBase Inc.
+              CryptoWorld Inc.
             </Link> <br />
             All Rights Reserved.
           </Typography.Title>
